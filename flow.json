@@ -148,12 +148,13 @@
             "0683198cc7fdff27",
             "47fa024a330e8b0c",
             "f262a12bda81206d",
-            "18e1e6021abd1ff4"
+            "18e1e6021abd1ff4",
+            "6360356fae0a69a2"
         ],
         "x": 14,
         "y": 539,
         "w": 552,
-        "h": 162
+        "h": 202
     },
     {
         "id": "e9d237aaf9318e74",
@@ -1272,7 +1273,7 @@
         "z": "fcff4cdb44fda5ca",
         "g": "6b9ce2bd073f4fde",
         "name": "Interruptor",
-        "label": "ACTIVAR CONTROL ON/OFF",
+        "label": "Habilitar ON/OFF",
         "tooltip": "",
         "group": "b33c308eb96337b7",
         "order": 4,
@@ -1298,7 +1299,8 @@
             [
                 "0683198cc7fdff27",
                 "f262a12bda81206d",
-                "18e1e6021abd1ff4"
+                "18e1e6021abd1ff4",
+                "6360356fae0a69a2"
             ]
         ]
     },
@@ -1338,7 +1340,7 @@
         "width": 4,
         "height": 1,
         "passthru": false,
-        "label": "Aceptar",
+        "label": "Confirmar",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -1347,7 +1349,7 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1050,
+        "x": 810,
         "y": 180,
         "wires": [
             [
@@ -1446,7 +1448,7 @@
         "shape": "circle",
         "showGlow": true,
         "name": "stop",
-        "x": 450,
+        "x": 270,
         "y": 620,
         "wires": []
     },
@@ -1478,7 +1480,7 @@
         "shape": "circle",
         "showGlow": true,
         "name": "start",
-        "x": 450,
+        "x": 270,
         "y": 660,
         "wires": []
     },
@@ -2233,5 +2235,76 @@
         "x": 660,
         "y": 740,
         "wires": []
+    },
+    {
+        "id": "6360356fae0a69a2",
+        "type": "change",
+        "z": "fcff4cdb44fda5ca",
+        "g": "6b9ce2bd073f4fde",
+        "name": "setHabilitar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Control.Controlon_off.habilitado",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ef8f1f8e10b582a",
+        "type": "inject",
+        "z": "fcff4cdb44fda5ca",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 840,
+        "wires": [
+            [
+                "e94977cf7a267980"
+            ]
+        ]
+    },
+    {
+        "id": "e94977cf7a267980",
+        "type": "function",
+        "z": "fcff4cdb44fda5ca",
+        "name": "LogicaControlOnOff",
+        "func": "var habilitado = global.get(\"Control.Controlon_off.habilitado\");\nvar ton = global.get(\"Control.Controlon_off.ton\") || 0;//tiempo de alta\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;//tiempo de baja\nvar estado = global.get(\"Control.Controlon_off.estado\") || false;//estado del equipo\nvar ctr = context.get(\"ctr\",ctr)||0;\nvar time = 0;\n\nif(habilitado == true){\n    //visualizar estado del habilitado\n    node.status({ fill: \"green\", shape: \"dot\", text: \"habilitado\" });\n    if (toff != 0 && ton != 0) {\n        // logica para cambiar entre estados\n        if(estado == true){\n            ctr = ctr + 1;\n            context.set(\"ctr\",ctr)//guardar contador\n            time = ton-ctr;\n            if(ton == ctr){\n                global.set(\"Control.Controlon_off.estado\",false);\n                context.set(\"ctr\",0)//setear el contador\n            }\n        }else{\n            ctr = ctr + 1;\n            context.set(\"ctr\",ctr)//guardar contador\n            time = toff-ctr;\n            if(toff == ctr){\n                global.set(\"Control.Controlon_off.estado\",true);\n                context.set(\"ctr\",0)//setear el contador\n            }\n        }\n        \n        \n    }else{\n        node.status({ fill: \"red\", shape: \"dot\", text: \"tiemposNoConfigurados\" });\n    }\n}else{\n    node.status({ fill: \"red\", shape: \"dot\", text: \"Deshabilitado\" });\n} \ncontext.set(\"habilitado\",habilitado,\"memoryOnly\");\ncontext.set(\"estado\",estado,\"memoryOnly\");\ncontext.set(\"toff\",toff,\"memoryOnly\");\ncontext.set(\"ton\",ton,\"memoryOnly\");\ncontext.set(\"time\",time,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 840,
+        "wires": [
+            []
+        ]
     }
 ]
