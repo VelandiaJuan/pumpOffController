@@ -1570,6 +1570,7 @@
         "id": "5210596f528c0b85",
         "type": "inject",
         "z": "fcff4cdb44fda5ca",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -2008,8 +2009,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1390,
-        "y": 100,
+        "x": 1370,
+        "y": 80,
         "wires": []
     },
     {
@@ -2111,6 +2112,7 @@
         "id": "5689909101d8eeb8",
         "type": "inject",
         "z": "fcff4cdb44fda5ca",
+        "d": true,
         "name": "",
         "props": [
             {
@@ -2295,8 +2297,8 @@
         "type": "function",
         "z": "fcff4cdb44fda5ca",
         "name": "LogicaControlOnOff",
-        "func": "var habilitado = global.get(\"Control.Controlon_off.habilitado\");\nvar ton = global.get(\"Control.Controlon_off.ton\") || 0;//tiempo de alta\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;//tiempo de baja\nvar estado = global.get(\"Control.Controlon_off.estado\") || false;//estado del equipo\nvar ctr = context.get(\"ctr\",ctr)||0;\nvar time = 0;\n\nif(habilitado == true){\n    //visualizar estado del habilitado\n    node.status({ fill: \"green\", shape: \"dot\", text: \"habilitado\" });\n    if (toff != 0 && ton != 0) {\n        // logica para cambiar entre estados\n        if(estado == true){\n            ctr = ctr + 1;\n            context.set(\"ctr\",ctr)//guardar contador\n            time = ton-ctr;\n            if(ton == ctr){\n                global.set(\"Control.Controlon_off.estado\",false);\n                context.set(\"ctr\",0)//setear el contador\n            }\n        }else{\n            ctr = ctr + 1;\n            context.set(\"ctr\",ctr)//guardar contador\n            time = toff-ctr;\n            if(toff == ctr){\n                global.set(\"Control.Controlon_off.estado\",true);\n                context.set(\"ctr\",0)//setear el contador\n            }\n        }\n        \n        \n    }else{\n        node.status({ fill: \"red\", shape: \"dot\", text: \"tiemposNoConfigurados\" });\n    }\n}else{\n    node.status({ fill: \"red\", shape: \"dot\", text: \"Deshabilitado\" });\n} \ncontext.set(\"habilitado\",habilitado,\"memoryOnly\");\ncontext.set(\"estado\",estado,\"memoryOnly\");\ncontext.set(\"toff\",toff,\"memoryOnly\");\ncontext.set(\"ton\",ton,\"memoryOnly\");\ncontext.set(\"time\",time,\"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
+        "func": "var habilitado = global.get(\"Control.Controlon_off.habilitado\");\nvar ton = global.get(\"Control.Controlon_off.ton\") || 0;//tiempo de alta\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;//tiempo de baja\nvar estado = global.get(\"Control.Controlon_off.estado\") || false;//estado del equipo\nvar ctr = context.get(\"ctr\",ctr)||0;\nvar time = 0;\n\nif(habilitado == true){\n    //visualizar estado del habilitado\n    node.status({ fill: \"green\", shape: \"dot\", text: \"habilitado\" });\n    if (toff != 0 && ton != 0) {\n        // logica para cambiar entre estados\n        if(estado == true){\n            node.status({ fill: \"green\", shape: \"dot\", text: estado });\n            ctr = ctr + 1;\n            context.set(\"ctr\",ctr)//guardar contador\n            time = ton-ctr;\n            if(ton == ctr){\n                global.set(\"Control.Controlon_off.estado\",false);\n                context.set(\"ctr\",0)//setear el contador\n            }else if (ctr > ton){\n                //caso en el cual se cambia el tiempo del contador pot pantalla\n                context.set(\"ctr\",0)//setear el contador\n            }\n        }else{\n            node.status({ fill: \"red\", shape: \"dot\", text: estado });\n            ctr = ctr + 1;\n            context.set(\"ctr\",ctr)//guardar contador\n            time = toff-ctr;\n            if(toff == ctr){\n                global.set(\"Control.Controlon_off.estado\",true);\n                context.set(\"ctr\",0)//setear el contador\n            } else if (ctr > toff) {\n                //caso en el cual se cambia el tiempo del contador pot pantalla\n                context.set(\"ctr\", 0)//setear el contador\n            }\n        }\n        time = { payload: time};\n        estado = { payload: estado};\n        return [estado,time];\n    }else{\n        node.status({ fill: \"red\", shape: \"dot\", text: \"tiemposNoConfigurados\" });\n    }\n}else{\n    node.status({ fill: \"red\", shape: \"dot\", text: \"Deshabilitado\" });\n} \ncontext.set(\"habilitado\",habilitado,\"memoryOnly\");\ncontext.set(\"estado\",estado,\"memoryOnly\");\ncontext.set(\"toff\",toff,\"memoryOnly\");\ncontext.set(\"ton\",ton,\"memoryOnly\");\ncontext.set(\"time\",time,\"memoryOnly\");",
+        "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -2304,7 +2306,83 @@
         "x": 450,
         "y": 840,
         "wires": [
-            []
+            [
+                "6a685075c17a5205"
+            ],
+            [
+                "3070092c0802a8b9",
+                "d460c37f16adef13"
+            ]
         ]
+    },
+    {
+        "id": "6a685075c17a5205",
+        "type": "debug",
+        "z": "fcff4cdb44fda5ca",
+        "name": "estado",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 650,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "3070092c0802a8b9",
+        "type": "debug",
+        "z": "fcff4cdb44fda5ca",
+        "name": "tiempo",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 650,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "d460c37f16adef13",
+        "type": "function",
+        "z": "fcff4cdb44fda5ca",
+        "name": "conversionDia",
+        "func": "var InputSeconds = msg.payload;\nif(InputSeconds >= 0){\n    // si no genera numeros negativos\n    var Days = parseInt(InputSeconds / 86400);\n    var Hours = parseInt((InputSeconds - (Days) * 86400) / 3600);\n    var SegRest = parseInt(InputSeconds - (Hours * 3600) - (Days * 86400));\n    var Min = parseInt(SegRest / 60);\n    var seconds = parseInt(SegRest - (Min * 60));\n    \n    // conversion a string\n    Days = Days.toString()\n    Hours = Hours.toString()\n    Min = Min.toString()\n    seconds = seconds.toString()\n    //concatenacion\n    var date = Days; date += \":\"; date += Hours; date += \":\"; date += Min; date += \":\";date += seconds;\n    // retornar el mensaje\n    msg.payload = date;\n    // guardar las variables\n    context.set(\"Days\", (Days),\"memoryOnly\");\n    context.set(\"InputSeconds\", InputSeconds, \"memoryOnly\");\n    context.set(\"Hours\", Hours, \"memoryOnly\");\n    context.set(\"SegRest\", SegRest, \"memoryOnly\");\n    context.set(\"Min\", Min, \"memoryOnly\");\n    context.set(\"seconds\", seconds, \"memoryOnly\");\n    context.set(\"date\", date, \"memoryOnly\");\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 940,
+        "wires": [
+            [
+                "655a20b83e6bb351"
+            ]
+        ]
+    },
+    {
+        "id": "655a20b83e6bb351",
+        "type": "debug",
+        "z": "fcff4cdb44fda5ca",
+        "name": "diaHora",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 660,
+        "y": 980,
+        "wires": []
     }
 ]
