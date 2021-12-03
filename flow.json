@@ -1,6 +1,6 @@
 [
     {
-        "id": "fcff4cdb44fda5ca",
+        "id": "97a26d9e76390f7d",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
@@ -103,9 +103,9 @@
         }
     },
     {
-        "id": "91792c6ffd28de0b",
+        "id": "26573071a48db557",
         "type": "group",
-        "z": "fcff4cdb44fda5ca",
+        "z": "97a26d9e76390f7d",
         "name": "ADQUISICIÓN TIEMPO",
         "style": {
             "stroke": "#3f93cf",
@@ -113,28 +113,28 @@
             "color": "#bfdbef"
         },
         "nodes": [
-            "907427987abcd065",
-            "4b3edc8755aa1a08",
-            "ce1296d511702af8",
-            "5e13a85b43236d69",
-            "66cfebc2bd25f60b",
-            "6011f1a16735dc12",
-            "1593e52e1e94fa96",
-            "8e2519b914a7de41",
-            "083b721358ae9b3d",
-            "2bc08ba487f76b46",
-            "e144048faba01f32",
-            "8d1ef2c856a70423"
+            "fbbad81c51b7c9d2",
+            "14fb6705bc502211",
+            "167835101b38128a",
+            "f5900ce8e402ca3f",
+            "256a01f253197f61",
+            "617fe08dd990bc56",
+            "2f612e1ebb27e1f0",
+            "88a857e06437d475",
+            "e8e036dd9c3ab8cc",
+            "0fc93e2433e0e8fd",
+            "2c5bc1422dee2f23",
+            "b9ecd8244f4759a0"
         ],
-        "x": 14,
-        "y": 19,
+        "x": 854,
+        "y": 219,
         "w": 652,
         "h": 282
     },
     {
-        "id": "6b9ce2bd073f4fde",
+        "id": "2a06f1ebdf6594bd",
         "type": "group",
-        "z": "fcff4cdb44fda5ca",
+        "z": "97a26d9e76390f7d",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -145,16 +145,115 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "0683198cc7fdff27",
-            "47fa024a330e8b0c",
-            "f262a12bda81206d",
-            "18e1e6021abd1ff4",
-            "6360356fae0a69a2"
+            "90c2a4fe8d950dec",
+            "55c924f19922f406",
+            "db4256d9d91906e7",
+            "a62be44d478fd497",
+            "28a1b81a153ece02",
+            "c51151e6106ab441",
+            "700b07323e59394d",
+            "4ddb7c483b76e187",
+            "856b8deec1318ea5",
+            "2e284f8dad321902",
+            "4a073f2b7cbd9967",
+            "f7fbd465f57d789e",
+            "5464cbc6e13e1e7f",
+            "d82c1b712d554325",
+            "747ddcf3a79b54d8",
+            "6558ca974868c796",
+            "a0fa8d9f1acb3ca5"
         ],
-        "x": 14,
-        "y": 539,
-        "w": 552,
-        "h": 202
+        "x": 154,
+        "y": 679,
+        "w": 1352,
+        "h": 262
+    },
+    {
+        "id": "28c8f5c5afe69e5a",
+        "type": "group",
+        "z": "97a26d9e76390f7d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "09761a95081546b8",
+            "2b30a6219b8e68d1",
+            "24af01133d6a3313",
+            "2d4339ea4d29470a",
+            "ab9f3c56846f6405",
+            "ece217650efbf988",
+            "1a5c6702e1d15a8f",
+            "f74acd4a67a48990",
+            "649ab25d25f0fac6",
+            "bf5de5ea2d599498",
+            "abad8208a8a02cb2"
+        ],
+        "x": 634,
+        "y": 959,
+        "w": 892,
+        "h": 282
+    },
+    {
+        "id": "7a43ddafe014d4ab",
+        "type": "group",
+        "z": "97a26d9e76390f7d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "025b1dc9349bcd2e",
+            "70440e787acffd19",
+            "e5799ad112c8e627",
+            "c9cdf69d7792c813",
+            "ebf9f97b644ccd1b"
+        ],
+        "x": 674,
+        "y": 519,
+        "w": 832,
+        "h": 142
+    },
+    {
+        "id": "623ed09f1a445c2b",
+        "type": "group",
+        "z": "97a26d9e76390f7d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "667d890688ef13ec",
+            "9b8f3a9cc10dddf9",
+            "c37e65fc3624b7f7",
+            "525cd360bcb57854",
+            "876e5483b107547a",
+            "e9acb49079908ed9",
+            "1e14c7a3b1944014",
+            "5e74ed0d74c32c1a",
+            "dcc2e38d1a69f3e4",
+            "4f1b315f5d9b3851",
+            "ba6328cf9c55541d"
+        ],
+        "x": 434,
+        "y": 39,
+        "w": 1572,
+        "h": 162
     },
     {
         "id": "e9d237aaf9318e74",
@@ -314,26 +413,6 @@
         "collapse": false
     },
     {
-        "id": "28ae945d9fbda197",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "d25e36ba754beaaa",
-        "order": 3,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "7d624a0d63e3edb6",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "d25e36ba754beaaa",
-        "order": 5,
-        "width": 9,
-        "height": 1
-    },
-    {
         "id": "9d512981.aa8278",
         "type": "ui_tab",
         "name": "Configuración VSD",
@@ -359,156 +438,6 @@
         "width": 6
     },
     {
-        "id": "6e88e92db86f9480",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 1,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "11736eb260ae400c",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 3,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "95586e085e669605",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "148b27f7dee1eb5d",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 8,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "f8cc3b0c7431498f",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 10,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "953818cd7763e6c1",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 12,
-        "width": 13,
-        "height": 1
-    },
-    {
-        "id": "39aceee14b1ffc10",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 13,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "f3e995096d3dee3d",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 15,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "4573f3873a5765b9",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d52cb8ec098ff117",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 19,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5ae3191ec1202452",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 21,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3770f5beabd810e0",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 23,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "dcc6f5c17915e99a",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 25,
-        "width": 13,
-        "height": 1
-    },
-    {
-        "id": "941f94a7036ca37f",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 26,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "c3e81113caf5f997",
-        "type": "ui_spacer",
-        "z": "fcff4cdb44fda5ca",
-        "name": "spacer",
-        "group": "b33c308eb96337b7",
-        "order": 28,
-        "width": 7,
-        "height": 1
-    },
-    {
         "id": "f023f1ab18989eca",
         "type": "ui_group",
         "name": "Horometro",
@@ -517,6 +446,438 @@
         "disp": false,
         "width": "12",
         "collapse": false
+    },
+    {
+        "id": "51547be1fed99530",
+        "type": "pccc endpoint",
+        "d": true,
+        "address": "192.168.2.10",
+        "port": "44818",
+        "userouting": false,
+        "routing": "",
+        "cycletime": "500",
+        "timeout": "1500",
+        "name": "PowerFlex755T_Read",
+        "vartable": [
+            {
+                "addr": "N45:0",
+                "name": "Logic_Status_1"
+            },
+            {
+                "addr": "N45:1",
+                "name": "Logic_Status_2"
+            },
+            {
+                "addr": "N45:0",
+                "name": "Logic_Command_1"
+            },
+            {
+                "addr": "N45:1",
+                "name": "Logic_Command_2"
+            },
+            {
+                "addr": "N150:2",
+                "name": "Output_Frequency_1"
+            },
+            {
+                "addr": "N150:3",
+                "name": "Output_Frequency_2"
+            },
+            {
+                "addr": "N150:4",
+                "name": "Commanded_SpdRef_1"
+            },
+            {
+                "addr": "N150:5",
+                "name": "Commanded_SpdRef_2"
+            },
+            {
+                "addr": "N150:6",
+                "name": "Mtr_Vel_Fdbk_1"
+            },
+            {
+                "addr": "N150:7",
+                "name": "Mtr_Vel_Fdbk_2"
+            },
+            {
+                "addr": "N150:14",
+                "name": "Output_Current_1"
+            },
+            {
+                "addr": "N150:15",
+                "name": "Output_Current_2"
+            },
+            {
+                "addr": "N150:16",
+                "name": "Output_Voltage_1"
+            },
+            {
+                "addr": "N150:17",
+                "name": "Output_Voltage_2"
+            },
+            {
+                "addr": "N150:18",
+                "name": "Output_Power_1"
+            },
+            {
+                "addr": "N150:19",
+                "name": "Output_Power_2"
+            },
+            {
+                "addr": "N150:20",
+                "name": "Output_Powr_Fctr_1"
+            },
+            {
+                "addr": "N150:21",
+                "name": "Output_Powr_Fctr_2"
+            },
+            {
+                "addr": "N150:22",
+                "name": "DC_Bus_Volts_1"
+            },
+            {
+                "addr": "N150:23",
+                "name": "DC_Bus_Volts_2"
+            },
+            {
+                "addr": "N150:30",
+                "name": "Elapsed_Run_Time_1"
+            },
+            {
+                "addr": "N150:31",
+                "name": "Elapsed_Run_Time_2"
+            },
+            {
+                "addr": "N150:36",
+                "name": "Elpsd_Mtr_kWHrs_1"
+            },
+            {
+                "addr": "N150:37",
+                "name": "Elpsd_Mtr_kWHrs_2"
+            },
+            {
+                "addr": "N157:134",
+                "name": "IGBT_Temp_C_1"
+            },
+            {
+                "addr": "N157:135",
+                "name": "IGBT_Temp_C_2"
+            },
+            {
+                "addr": "N157:138",
+                "name": "Drive_Temp_C_1"
+            },
+            {
+                "addr": "N157:139",
+                "name": "Drive_Temp_C_2"
+            },
+            {
+                "addr": "N157:152",
+                "name": "Last_Fault_Code_1"
+            },
+            {
+                "addr": "N157:153",
+                "name": "Last_Fault_Code_2"
+            },
+            {
+                "addr": "N166:174",
+                "name": "PMM_OL_Select_1"
+            },
+            {
+                "addr": "N166:175",
+                "name": "PMM_OL_Select_2"
+            },
+            {
+                "addr": "N151:190",
+                "name": "Digital_In_Sts_1"
+            },
+            {
+                "addr": "N151:191",
+                "name": "Digital_In_Sts_2"
+            },
+            {
+                "addr": "N166:214",
+                "name": "Tunning_Select_1"
+            },
+            {
+                "addr": "N166:215",
+                "name": "Tunning_Select_2"
+            },
+            {
+                "addr": "N154:70",
+                "name": "Accel_Time_1"
+            },
+            {
+                "addr": "N154:71",
+                "name": "Accel_Time_2"
+            },
+            {
+                "addr": "N154:74",
+                "name": "Decel_Time_1"
+            },
+            {
+                "addr": "N154:75",
+                "name": "Decel_Time_2"
+            },
+            {
+                "addr": "N154:40",
+                "name": "Max_Fwd_Speed_1"
+            },
+            {
+                "addr": "N154:41",
+                "name": "Max_Fwd_Speed_2"
+            }
+        ]
+    },
+    {
+        "id": "72c35d2e50b74a35",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "d25e36ba754beaaa",
+        "order": 3,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "422864d81c5e792f",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "d25e36ba754beaaa",
+        "order": 5,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "3eff546be7f78913",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b494cabdd80caaff",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "eb0d0ec4d15cec13",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "7827cf905530d6cb",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3f5ae87933ba7ca9",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "ec6f7a216cc3e7c2",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "550cdf6ee55885b5",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 14,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "549f9b2a81b2d46a",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e1f49a124270d995",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 16,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "65fa673dc771fed3",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c441fc0d62058a3a",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3634032f7b6be57e",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "61722e89a197a4d9",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 23,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "00793de620cbb8a4",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f6411fa544dc7b95",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "01622a4a441c96ba",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 28,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "07a8f120f2f49005",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 29,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4a9bb2e7315fe28f",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 30,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "7dd88239044d023f",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 32,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "da2eb42686ae2942",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 34,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3f587b8f86800d64",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 35,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "14db33d8aeb183b1",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 37,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6cf539b95cb9c042",
+        "type": "ui_spacer",
+        "z": "97a26d9e76390f7d",
+        "name": "spacer",
+        "group": "b33c308eb96337b7",
+        "order": 39,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "673a44a4224904a9",
@@ -945,7 +1306,6 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "outputs": 1,
         "x": 1090,
         "y": 110,
         "wires": [
@@ -996,7 +1356,6 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "outputs": 1,
         "x": 1640,
         "y": 190,
         "wires": [
@@ -1213,7 +1572,6 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "outputs": 1,
         "x": 1710,
         "y": 230,
         "wires": [
@@ -1223,37 +1581,18 @@
         ]
     },
     {
-        "id": "ba96c0771f222d2c",
-        "type": "function",
-        "z": "fcff4cdb44fda5ca",
-        "name": "Control ON/OFF",
-        "func": "var on = global.get(\"on\", \"memoryOnly\") || 0;\nvar Activador = global.get(\"Activador\",\"memoryOnly\")||0;\nvar confirmar = global.get(\"Control.Controlon_off.confirmar\");\nglobal.set(\"Control.Controlon_off.confirmar\", confirmar);\nvar ton = global.get(\"Control.Controlon_off.ton\") || 0;\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;\nvar aceptado = global.get(\"Control.Controlon_off.aceptado\");\ncontext.set(\"aceptado\",aceptado,\"memoryOnly\");\nglobal.set(\"Control.Controlon_off.aceptado\", aceptado);\nnode.status({ fill: \"green\", shape: \"dot\", text: ton });\n\nif (aceptado == true) {\n    on = 0;\n    global.set(\"on\", on, \"memoryOnly\");\n    if (confirmar == true && toff != 0 && ton != 0) {\n        if (on == 0) {//Encendido del motor\n            msg.payload = \"Motor Encendido\";\n            msg.delay = ton*1000;\n            if(Activador == 1){\n                on = Activador;\n                global.set(\"on\", on, \"memoryOnly\");\n\n            }\n            \n            context.set(\"tiempoRetardo\", msg.delay, \"memoryOnly\");\n            \n        } else if (on == 1) {//Apagado del motor\n            msg.payload = \"Motor Apagado\";\n            msg.delay = toff*1000;\n            if (Activador == 0) {\n                Activador = 0;\n                on = Activador;\n                global.set(\"on\", on, \"memoryOnly\");\n\n            }\n            context.set(\"tiempoRetardo\", msg.delay, \"memoryOnly\");\n            \n        }\n    \n    }else {\n        msg.topic = \"No inicio\"\n         }\n} else if (aceptado == false) {\n    msg.payload = \"Desabilitado\";\n    msg.topic = \"Desabilitado\";\n    msg.delay = 1000;\n    node.status({ fill: \"red\", shape: \"dot\", text: msg.topic });\n    on = 2;\n    global.set(\"Control.Controlon_off.on\", on);\n    ton = 0;\n    global.set(\"Control.Controlon_off.ton\", ton,\"memoryOnly\");\n    toff = 0; \n    global.set(\"Control.Controlon_off.toff\", toff);\n    confirmar = false;\n    global.set(\"Control.Controlon_off.confirmar\", confirmar);\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 400,
-        "wires": [
-            [
-                "e39650134bacf601"
-            ]
-        ]
-    },
-    {
-        "id": "0683198cc7fdff27",
+        "id": "90c2a4fe8d950dec",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
-        "g": "6b9ce2bd073f4fde",
-        "name": "",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "trueAceptado",
         "rules": [
             {
                 "t": "set",
                 "p": "Control.Controlon_off.aceptado",
                 "pt": "global",
-                "to": "payload",
-                "tot": "msg"
+                "to": "true",
+                "tot": "bool"
             }
         ],
         "action": "",
@@ -1261,22 +1600,22 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 380,
-        "y": 580,
+        "x": 1390,
+        "y": 780,
         "wires": [
             []
         ]
     },
     {
-        "id": "47fa024a330e8b0c",
+        "id": "55c924f19922f406",
         "type": "ui_switch",
-        "z": "fcff4cdb44fda5ca",
-        "g": "6b9ce2bd073f4fde",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
         "name": "Interruptor",
-        "label": "Habilitar ON/OFF",
+        "label": "ACTIVAR CONTROL ON/OFF",
         "tooltip": "",
         "group": "b33c308eb96337b7",
-        "order": 4,
+        "order": 1,
         "width": 5,
         "height": 1,
         "passthru": true,
@@ -1284,63 +1623,36 @@
         "topic": "topic",
         "topicType": "msg",
         "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
+        "onvalue": "1",
+        "onvalueType": "num",
         "onicon": "",
         "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
+        "offvalue": "0",
+        "offvalueType": "num",
         "officon": "",
         "offcolor": "",
         "animate": false,
-        "x": 110,
-        "y": 620,
+        "x": 250,
+        "y": 820,
         "wires": [
             [
-                "0683198cc7fdff27",
-                "f262a12bda81206d",
-                "18e1e6021abd1ff4",
-                "6360356fae0a69a2"
+                "5786f66db80d6e72",
+                "6be8d24e43675b53"
             ]
         ]
     },
     {
-        "id": "3dc65c66458986f8",
-        "type": "delay",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "pauseType": "delayv",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 820,
-        "y": 400,
-        "wires": [
-            [
-                "ba96c0771f222d2c",
-                "d7b4b63b69381b21"
-            ]
-        ]
-    },
-    {
-        "id": "b41a285847a3fc4e",
+        "id": "876e5483b107547a",
         "type": "ui_button",
-        "z": "fcff4cdb44fda5ca",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
         "name": "Iniciar",
         "group": "b33c308eb96337b7",
-        "order": 27,
+        "order": 36,
         "width": 4,
         "height": 1,
         "passthru": false,
-        "label": "Confirmar",
+        "label": "Actualizar",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -1349,145 +1661,19 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 810,
-        "y": 180,
+        "x": 1050,
+        "y": 120,
         "wires": [
             [
-                "10cffdbe884a2034",
-                "54db73428efc0679"
+                "1e14c7a3b1944014"
             ]
         ]
     },
     {
-        "id": "da5c46de9241b220",
-        "type": "ui_led",
-        "z": "fcff4cdb44fda5ca",
-        "order": 7,
-        "group": "b33c308eb96337b7",
-        "width": 5,
-        "height": 1,
-        "label": "SRP EN MARCHA",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "#808080",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "start",
-        "x": 770,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "72a56e4007b0f116",
-        "type": "ui_led",
-        "z": "fcff4cdb44fda5ca",
-        "order": 20,
-        "group": "b33c308eb96337b7",
-        "width": 5,
-        "height": 1,
-        "label": "SRP DETENIDO",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#808080",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "stop",
-        "x": 790,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "f262a12bda81206d",
-        "type": "ui_led",
-        "z": "fcff4cdb44fda5ca",
-        "g": "6b9ce2bd073f4fde",
-        "order": 16,
-        "group": "b33c308eb96337b7",
-        "width": 4,
-        "height": 2,
-        "label": "STOP",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "#ffff00",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#808080",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "stop",
-        "x": 270,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "18e1e6021abd1ff4",
-        "type": "ui_led",
-        "z": "fcff4cdb44fda5ca",
-        "g": "6b9ce2bd073f4fde",
-        "order": 24,
-        "group": "b33c308eb96337b7",
-        "width": 4,
-        "height": 2,
-        "label": "READY",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "#808080",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "start",
-        "x": 270,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "10cffdbe884a2034",
+        "id": "e9acb49079908ed9",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
         "name": "",
         "rules": [
             {
@@ -1503,102 +1689,17 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1300,
-        "y": 180,
+        "x": 1820,
+        "y": 80,
         "wires": [
-            [
-                "ded2c8ad4dea54b9"
-            ]
+            []
         ]
     },
     {
-        "id": "76fa9c5627c58205",
-        "type": "switch",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "property": "delay",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "neq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 670,
-        "y": 400,
-        "wires": [
-            [
-                "3dc65c66458986f8"
-            ]
-        ]
-    },
-    {
-        "id": "e39650134bacf601",
+        "id": "c37e65fc3624b7f7",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "rules": [
-            {
-                "t": "delete",
-                "p": "payload",
-                "pt": "msg"
-            },
-            {
-                "t": "delete",
-                "p": "topic",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 400,
-        "wires": [
-            [
-                "76fa9c5627c58205"
-            ]
-        ]
-    },
-    {
-        "id": "5210596f528c0b85",
-        "type": "inject",
-        "z": "fcff4cdb44fda5ca",
-        "d": true,
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "date",
-        "x": 130,
-        "y": 400,
-        "wires": [
-            [
-                "ba96c0771f222d2c"
-            ]
-        ]
-    },
-    {
-        "id": "c2956968d6c978fc",
-        "type": "change",
-        "z": "fcff4cdb44fda5ca",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
         "name": "",
         "rules": [
             {
@@ -1614,19 +1715,19 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1060,
-        "y": 40,
+        "x": 800,
+        "y": 80,
         "wires": [
             [
-                "b41a285847a3fc4e",
-                "969717e094c49be6"
+                "876e5483b107547a"
             ]
         ]
     },
     {
-        "id": "9cb2e4f9f810fa7c",
+        "id": "525cd360bcb57854",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
         "name": "",
         "rules": [
             {
@@ -1642,20 +1743,19 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1060,
-        "y": 80,
+        "x": 800,
+        "y": 120,
         "wires": [
             [
-                "b41a285847a3fc4e",
-                "2fc1ce246dd6d73a"
+                "876e5483b107547a"
             ]
         ]
     },
     {
-        "id": "907427987abcd065",
+        "id": "fbbad81c51b7c9d2",
         "type": "ui_text_input",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "label": "Horas_Marcha",
         "tooltip": "",
@@ -1668,24 +1768,24 @@
         "delay": 300,
         "topic": "topic",
         "topicType": "msg",
-        "x": 120,
-        "y": 60,
+        "x": 960,
+        "y": 260,
         "wires": [
             [
-                "5e13a85b43236d69"
+                "f5900ce8e402ca3f"
             ]
         ]
     },
     {
-        "id": "4b3edc8755aa1a08",
+        "id": "14fb6705bc502211",
         "type": "ui_text_input",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "label": "Minutos_Marcha",
         "tooltip": "",
         "group": "b33c308eb96337b7",
-        "order": 5,
+        "order": 6,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -1693,24 +1793,24 @@
         "delay": 300,
         "topic": "topic",
         "topicType": "msg",
-        "x": 130,
-        "y": 100,
+        "x": 970,
+        "y": 300,
         "wires": [
             [
-                "66cfebc2bd25f60b"
+                "256a01f253197f61"
             ]
         ]
     },
     {
-        "id": "ce1296d511702af8",
+        "id": "167835101b38128a",
         "type": "ui_text_input",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "label": "Segundos_Marcha",
         "tooltip": "",
         "group": "b33c308eb96337b7",
-        "order": 9,
+        "order": 10,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -1718,19 +1818,19 @@
         "delay": 300,
         "topic": "topic",
         "topicType": "msg",
-        "x": 130,
-        "y": 140,
+        "x": 970,
+        "y": 340,
         "wires": [
             [
-                "6011f1a16735dc12"
+                "617fe08dd990bc56"
             ]
         ]
     },
     {
-        "id": "5e13a85b43236d69",
+        "id": "f5900ce8e402ca3f",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "rules": [
             {
@@ -1746,17 +1846,17 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
-        "y": 60,
+        "x": 1250,
+        "y": 260,
         "wires": [
             []
         ]
     },
     {
-        "id": "66cfebc2bd25f60b",
+        "id": "256a01f253197f61",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "rules": [
             {
@@ -1772,17 +1872,17 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 440,
-        "y": 100,
+        "x": 1280,
+        "y": 300,
         "wires": [
             []
         ]
     },
     {
-        "id": "6011f1a16735dc12",
+        "id": "617fe08dd990bc56",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "rules": [
             {
@@ -1798,16 +1898,17 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 450,
-        "y": 140,
+        "x": 1290,
+        "y": 340,
         "wires": [
             []
         ]
     },
     {
-        "id": "54db73428efc0679",
+        "id": "9b8f3a9cc10dddf9",
         "type": "function",
-        "z": "fcff4cdb44fda5ca",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
         "name": "Tiempo ON/OFF",
         "func": "var HMarcha = flow.get(\"Control.Controlon_off.Horas_Marcha\")|| 0;\nvar MMarcha = flow.get(\"Control.Controlon_off.Minutos_Marcha\") || 0;\nvar SMarcha = flow.get(\"Control.Controlon_off.Segundos_Marcha\") || 0;\n\nvar HPausa = flow.get(\"Control.Controlon_off.Horas_Pausa\") || 0;\nvar MPausa = flow.get(\"Control.Controlon_off.Minutos_Pausa\") || 0;\nvar SPausa = flow.get(\"Control.Controlon_off.Segundos_Pausa\") || 0;\n\nvar TMarcha = { payload: (HMarcha * 3600) + (MMarcha * 60) + SMarcha};\nvar TPausa = { payload: (HPausa * 3600) + (MPausa * 60) + SPausa };\n\nnode.status({ fill: \"red\", shape: \"dot\", text: \"TMarcha: \"+ TMarcha.payload + \" TPausa:\" + TPausa.payload });\n\nreturn [TMarcha,TPausa];",
         "outputs": 2,
@@ -1815,27 +1916,27 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 80,
+        "x": 540,
+        "y": 120,
         "wires": [
             [
-                "c2956968d6c978fc"
+                "c37e65fc3624b7f7"
             ],
             [
-                "9cb2e4f9f810fa7c"
+                "525cd360bcb57854"
             ]
         ]
     },
     {
-        "id": "1593e52e1e94fa96",
+        "id": "2f612e1ebb27e1f0",
         "type": "ui_text_input",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "label": "Horas_Pausa",
         "tooltip": "",
         "group": "b33c308eb96337b7",
-        "order": 14,
+        "order": 17,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -1843,46 +1944,21 @@
         "delay": 300,
         "topic": "topic",
         "topicType": "msg",
-        "x": 120,
-        "y": 180,
+        "x": 960,
+        "y": 380,
         "wires": [
             [
-                "2bc08ba487f76b46"
+                "0fc93e2433e0e8fd"
             ]
         ]
     },
     {
-        "id": "8e2519b914a7de41",
+        "id": "88a857e06437d475",
         "type": "ui_text_input",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "label": "Minutos_Pausa",
-        "tooltip": "",
-        "group": "b33c308eb96337b7",
-        "order": 18,
-        "width": 6,
-        "height": 1,
-        "passthru": true,
-        "mode": "number",
-        "delay": 300,
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 120,
-        "y": 220,
-        "wires": [
-            [
-                "e144048faba01f32"
-            ]
-        ]
-    },
-    {
-        "id": "083b721358ae9b3d",
-        "type": "ui_text_input",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
-        "name": "",
-        "label": "Segundos_Pausa",
         "tooltip": "",
         "group": "b33c308eb96337b7",
         "order": 22,
@@ -1893,19 +1969,44 @@
         "delay": 300,
         "topic": "topic",
         "topicType": "msg",
-        "x": 130,
-        "y": 260,
+        "x": 960,
+        "y": 420,
         "wires": [
             [
-                "8d1ef2c856a70423"
+                "2c5bc1422dee2f23"
             ]
         ]
     },
     {
-        "id": "2bc08ba487f76b46",
+        "id": "e8e036dd9c3ab8cc",
+        "type": "ui_text_input",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
+        "name": "",
+        "label": "Segundos_Pausa",
+        "tooltip": "",
+        "group": "b33c308eb96337b7",
+        "order": 27,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 970,
+        "y": 460,
+        "wires": [
+            [
+                "b9ecd8244f4759a0"
+            ]
+        ]
+    },
+    {
+        "id": "0fc93e2433e0e8fd",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "rules": [
             {
@@ -1921,17 +2022,17 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
-        "y": 180,
+        "x": 1250,
+        "y": 380,
         "wires": [
             []
         ]
     },
     {
-        "id": "e144048faba01f32",
+        "id": "2c5bc1422dee2f23",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "rules": [
             {
@@ -1947,17 +2048,17 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 440,
-        "y": 220,
+        "x": 1280,
+        "y": 420,
         "wires": [
             []
         ]
     },
     {
-        "id": "8d1ef2c856a70423",
+        "id": "b9ecd8244f4759a0",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
-        "g": "91792c6ffd28de0b",
+        "z": "97a26d9e76390f7d",
+        "g": "26573071a48db557",
         "name": "",
         "rules": [
             {
@@ -1973,72 +2074,22 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 440,
-        "y": 260,
+        "x": 1280,
+        "y": 460,
         "wires": [
             []
         ]
     },
     {
-        "id": "969717e094c49be6",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1370,
-        "y": 40,
-        "wires": []
-    },
-    {
-        "id": "2fc1ce246dd6d73a",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1370,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "ded2c8ad4dea54b9",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1570,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "1a99894810d78907",
+        "id": "025b1dc9349bcd2e",
         "type": "ui_text_input",
-        "z": "fcff4cdb44fda5ca",
+        "z": "97a26d9e76390f7d",
+        "g": "7a43ddafe014d4ab",
         "name": "",
         "label": "REFERENCIA (SPM)",
         "tooltip": "",
         "group": "b33c308eb96337b7",
-        "order": 11,
+        "order": 8,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -2046,73 +2097,20 @@
         "delay": 300,
         "topic": "topic",
         "topicType": "msg",
-        "x": 140,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d7b4b63b69381b21",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "delay",
-        "targetType": "msg",
-        "statusVal": "delay",
-        "statusType": "msg",
-        "x": 990,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "43ef89e6f5aab198",
-        "type": "function",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "func": "var count_time1 = context.get(\"count_time1\",count_time1)||0;\nvar count_time2 = context.get(\"count_time2\", count_time2)||0;\nvar Activador = global.get(\"Indicador\",\"memoryOnly\")||0;\nvar on = global.get(\"on\", \"memoryOnly\") || 0;\nvar aceptado = global.get(\"Control.Controlon_off.aceptado\");\ncontext.set(\"aceptado\", aceptado, \"memoryOnly\");\nvar confirmar = global.get(\"Control.Controlon_off.confirmar\");\nglobal.set(\"Control.Controlon_off.confirmar\", confirmar);\nif(aceptado == true){\n    if (on == 0) {\n        var Inidicador = true;\n        count_time1 += 1;\n        context.set(\"count_time1\", count_time1);\n        var Days2 = 0;\n        var Hours2 = 0;\n        var SegRest2 = 0;\n        var min2 = 0;\n        var seconds2 = 0;\n        context.set(\"Days2\", (Days2));\n        context.set(\"InputSeconds\", InputSeconds);\n        context.set(\"Hours2\", Hours2);\n        context.set(\"SegRest2\", SegRest2);\n        context.set(\"min2\", min2);\n        context.set(\"seconds2\", seconds2);\n        var ton = global.get(\"Control.Controlon_off.ton\") || 0;\n        var InputSeconds = ton - count_time1;\n        var Days = parseInt(InputSeconds / 86400);\n        var Hours = parseInt((InputSeconds - (Days) * 86400) / 3600);\n        var SegRest = parseInt(InputSeconds - (Hours * 3600) - (Days * 86400));\n        var min = parseInt(SegRest / 60);\n        var seconds = parseInt(SegRest - (min * 60));\n        context.set(\"Days\", (Days));\n        context.set(\"InputSeconds\", InputSeconds);\n        context.set(\"Hours\", Hours);\n        context.set(\"SegRest\", SegRest);\n        context.set(\"min\", min);\n        context.set(\"seconds\", seconds);\n        Days = { payload: Days };\n        Hours = { payload: Hours };\n        min = { payload: min };\n        seconds = { payload: seconds };\n        Inidicador = { payload: Inidicador };\n        if (count_time1 == ton) {\n            Activador = 1;\n            count_time1 = 0;\n            context.set(\"count_time1\", count_time1);\n            on = Activador;\n            global.set(\"on\", on, \"memoryOnly\");\n        }\n\n    } else if (on == 1) {\n        var Inidicador = false;\n        count_time2 += 1;\n        context.set(\"count_time2\", count_time2);\n        var Days = 0;\n        var Hours = 0;\n        var SegRest = 0;\n        var min = 0;\n        var seconds = 0;\n        context.set(\"Days\", (Days));\n        context.set(\"InputSeconds\", InputSeconds);\n        context.set(\"Hours\", Hours);\n        context.set(\"SegRest\", SegRest);\n        context.set(\"min\", min);\n        context.set(\"seconds\", seconds);\n        var tof = global.get(\"Control.Controlon_off.toff\") || 0;\n        var InputSeconds = tof - count_time2;\n        var Days2 = parseInt(InputSeconds / 86400);\n        var Hours2 = parseInt((InputSeconds - (Days2) * 86400) / 3600);\n        var SegRest2 = parseInt(InputSeconds - (Hours2 * 3600) - (Days2 * 86400));\n        var min2 = parseInt(SegRest2 / 60);\n        var seconds2 = parseInt(SegRest2 - (min2 * 60));\n        context.set(\"Days2\", (Days2));\n        context.set(\"InputSeconds\", InputSeconds);\n        context.set(\"Hours2\", Hours2);\n        context.set(\"SegRest2\", SegRest2);\n        context.set(\"min2\", min2);\n        context.set(\"seconds2\", seconds2);\n        Days2 = { payload: Days2 };\n        Hours2 = { payload: Hours2 };\n        min2 = { payload: min2 };\n        seconds2 = { payload: seconds2 };\n        Inidicador = { payload: Inidicador };\n        if (count_time2 >= tof) {\n            Activador = 0;\n            count_time2 = 0;\n            context.set(\"count_time2\", count_time2);\n            on = Activador;\n            global.set(\"on\", on, \"memoryOnly\");\n        }\n    }\n    \n}else if(aceptado == false){\n    msg.payload = \"Desabilitado\";\n    msg.topic = \"Desabilitado\";\n    msg.delay = 1000;\n    node.status({ fill: \"red\", shape: \"dot\", text: msg.topic });\n    on = 2;\n    global.set(\"Control.Controlon_off.on\", on);\n    ton = 0;\n    global.set(\"Control.Controlon_off.ton\", ton, \"memoryOnly\");\n    tof = 0;\n    global.set(\"Control.Controlon_off.toff\", tof);\n    confirmar = false;\n    global.set(\"Control.Controlon_off.confirmar\", confirmar);\n}\n    \n\n\n\nreturn [Days, Hours, min, seconds, Days2, Hours2, min2, seconds2,Inidicador];",
-        "outputs": 9,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 680,
-        "y": 500,
+        "x": 800,
+        "y": 580,
         "wires": [
             [
-                "804e28db41ac1032"
-            ],
-            [
-                "326c7c5be147d1d2"
-            ],
-            [
-                "e26cc0b0417e38e3"
-            ],
-            [
-                "2b0352d9e96f99e1"
-            ],
-            [],
-            [],
-            [],
-            [
-                "e7f138d92149c3bd",
-                "431a686fa6b4c302"
-            ],
-            [
-                "da5c46de9241b220",
-                "72a56e4007b0f116"
+                "e5799ad112c8e627",
+                "70440e787acffd19"
             ]
         ]
     },
     {
-        "id": "5689909101d8eeb8",
+        "id": "1a5c6702e1d15a8f",
         "type": "inject",
-        "z": "fcff4cdb44fda5ca",
-        "d": true,
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
         "name": "",
         "props": [
             {
@@ -2129,19 +2127,45 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 510,
-        "y": 500,
+        "x": 750,
+        "y": 1120,
         "wires": [
             [
-                "43ef89e6f5aab198"
+                "ece217650efbf988"
             ]
         ]
     },
     {
-        "id": "804e28db41ac1032",
+        "id": "ece217650efbf988",
+        "type": "function",
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
+        "name": "LogicaControlOnOff",
+        "func": "var habilitado = global.get(\"Control.Controlon_off.aceptado\");\nvar ton = global.get(\"Control.Controlon_off.ton\") || 0;//tiempo de alta\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;//tiempo de baja\nvar estado = global.get(\"Control.Controlon_off.estado\") || false;//estado del equipo\nvar Frecuencia = global.get(\"controlSRP.Variador.Frecuencia\") || 0;\nvar ctr = context.get(\"ctr\",ctr)||0;\nvar time = 0;\nif(Frecuencia > 0){\n    if (habilitado == true) {\n        //visualizar estado del habilitado\n        node.status({ fill: \"green\", shape: \"dot\", text: \"habilitado\" });\n        if (toff != 0 && ton != 0) {\n            // logica para cambiar entre estados\n            if (estado == true) {\n                node.status({ fill: \"green\", shape: \"dot\", text: estado });\n                ctr = ctr + 1;\n                context.set(\"ctr\", ctr)//guardar contador\n                time = ton - ctr;\n                if (ton == ctr) {\n                    global.set(\"Control.Controlon_off.estado\", false);\n                    context.set(\"ctr\", 0)//setear el contador\n                } else if (ctr > ton) {\n                    //caso en el cual se cambia el tiempo del contador pot pantalla\n                    context.set(\"ctr\", 0)//setear el contador\n                }\n            } else {\n                node.status({ fill: \"red\", shape: \"dot\", text: estado });\n                ctr = ctr + 1;\n                context.set(\"ctr\", ctr)//guardar contador\n                time = toff - ctr;\n                if (toff == ctr) {\n                    global.set(\"Control.Controlon_off.estado\", true);\n                    context.set(\"ctr\", 0)//setear el contador\n                } else if (ctr > toff) {\n                    //caso en el cual se cambia el tiempo del contador pot pantalla\n                    context.set(\"ctr\", 0)//setear el contador\n                }\n            }\n            time = { payload: time };\n            estado = { payload: estado };\n            return [estado, time];\n        } else {\n            node.status({ fill: \"red\", shape: \"dot\", text: \"tiemposNoConfigurados\" });\n        }\n    } else if (habilitado == false) {\n        node.status({ fill: \"red\", shape: \"dot\", text: \"Deshabilitado\" });\n        global.set(\"Control.Controlon_off.estado\", true);\n        context.set(\"ctr\", 0)//setear el contador\n        time = { payload: time };\n        estado = { payload: \"Deshabilitado\" };\n        return [estado, time];\n    }\n\n}\ncontext.set(\"habilitado\",habilitado,\"memoryOnly\");\ncontext.set(\"estado\",estado,\"memoryOnly\");\ncontext.set(\"toff\",toff,\"memoryOnly\");\ncontext.set(\"ton\",ton,\"memoryOnly\");\ncontext.set(\"time\",time,\"memoryOnly\");\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 1120,
+        "wires": [
+            [
+                "24af01133d6a3313",
+                "bf5de5ea2d599498"
+            ],
+            [
+                "ab9f3c56846f6405",
+                "2d4339ea4d29470a"
+            ]
+        ]
+    },
+    {
+        "id": "ab9f3c56846f6405",
         "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
+        "name": "tiempo",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -2150,15 +2174,37 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 880,
-        "y": 480,
+        "x": 1160,
+        "y": 1100,
         "wires": []
     },
     {
-        "id": "326c7c5be147d1d2",
+        "id": "2d4339ea4d29470a",
+        "type": "function",
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
+        "name": "conversionDia",
+        "func": "var InputSeconds = msg.payload;\nif(InputSeconds >= 0){\n    // si no genera numeros negativos\n    var Days = parseInt(InputSeconds / 86400);\n    var Hours = parseInt((InputSeconds - (Days) * 86400) / 3600);\n    var SegRest = parseInt(InputSeconds - (Hours * 3600) - (Days * 86400));\n    var Min = parseInt(SegRest / 60);\n    var seconds = parseInt(SegRest - (Min * 60));\n    \n    // conversion a string\n    Days = Days.toString()\n    Hours = Hours.toString()\n    Min = Min.toString()\n    seconds = seconds.toString()\n    //concatenacion\n    var date = Days; date += \":\"; date += Hours; date += \":\"; date += Min; date += \":\";date += seconds;\n    // retornar el mensaje\n    msg.payload = date;\n    // guardar las variables\n    context.set(\"Days\", (Days),\"memoryOnly\");\n    context.set(\"InputSeconds\", InputSeconds, \"memoryOnly\");\n    context.set(\"Hours\", Hours, \"memoryOnly\");\n    context.set(\"SegRest\", SegRest, \"memoryOnly\");\n    context.set(\"Min\", Min, \"memoryOnly\");\n    context.set(\"seconds\", seconds, \"memoryOnly\");\n    context.set(\"date\", date, \"memoryOnly\");\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 1160,
+        "wires": [
+            [
+                "2b30a6219b8e68d1",
+                "09761a95081546b8"
+            ]
+        ]
+    },
+    {
+        "id": "2b30a6219b8e68d1",
         "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
+        "name": "diaHora",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -2167,87 +2213,436 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 900,
-        "y": 540,
+        "x": 1380,
+        "y": 1200,
         "wires": []
     },
     {
-        "id": "e26cc0b0417e38e3",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 920,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "2b0352d9e96f99e1",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 960,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "e7f138d92149c3bd",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 710,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "431a686fa6b4c302",
-        "type": "ui_text",
-        "z": "fcff4cdb44fda5ca",
+        "id": "24af01133d6a3313",
+        "type": "ui_led",
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
+        "order": 12,
         "group": "b33c308eb96337b7",
-        "order": 28,
-        "width": 0,
-        "height": 0,
+        "width": 3,
+        "height": 3,
+        "label": "Indicador",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#808080",
+                "value": "desabilitado",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Indicador",
+        "x": 1180,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "09761a95081546b8",
+        "type": "ui_text",
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
+        "group": "b33c308eb96337b7",
+        "order": 24,
+        "width": 3,
+        "height": 2,
         "name": "",
-        "label": "text",
+        "label": "Tiempo:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 660,
-        "y": 740,
+        "x": 1380,
+        "y": 1160,
         "wires": []
     },
     {
-        "id": "6360356fae0a69a2",
+        "id": "e5799ad112c8e627",
+        "type": "function",
+        "z": "97a26d9e76390f7d",
+        "g": "7a43ddafe014d4ab",
+        "name": "conversionSPM",
+        "func": "var spm = msg.payload;\nvar Dc = global.get(\"controlSRP.Variador.Dc\")||0;\nvar nPolosMotor = global.get(\"controlSRP.Variador.nPolosMotor\")||0;\nvar Dm = global.get(\"controlSRP.Variador.Dm\")||0;\nvar rgb = global.get(\"controlSRP.Variador.rgb\")||0;\n// condicion que valida que esten creadas todas las variables\nif (Dc != 0 || Dm != 0 || rgb != 0 || nPolosMotor != 0){\n    // calculo de la ecuación\n    var hz = (spm*nPolosMotor*rgb*Dc)/(60*Dm);\n    msg.payload = hz;\n    msg.topic = \"Configurado\"\n    node.status({ fill: \"green\", shape: \"dot\", text: msg.topic});\n    context.set(\"Dc\", Dc,\"memoryOnly\")\n    context.set(\"nPolosMotor\", nPolosMotor,\"memoryOnly\")\n    context.set(\"Dm\", Dm,\"memoryOnly\")\n    context.set(\"hz\", hz,\"memoryOnly\")\n    return msg;\n}else{\n    msg.topic = \"noConfigurado\"\n    node.status({ fill: \"red\", shape: \"dot\", text: msg.topic});\n    context.set(\"Dc\", Dc,\"memoryOnly\")\n    context.set(\"nPolosMotor\", nPolosMotor,\"memoryOnly\")\n    context.set(\"Dm\", Dm,\"memoryOnly\")\n\n}\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 600,
+        "wires": [
+            [
+                "c9cdf69d7792c813",
+                "ebf9f97b644ccd1b"
+            ]
+        ]
+    },
+    {
+        "id": "70440e787acffd19",
         "type": "change",
-        "z": "fcff4cdb44fda5ca",
-        "g": "6b9ce2bd073f4fde",
-        "name": "setHabilitar",
+        "z": "97a26d9e76390f7d",
+        "g": "7a43ddafe014d4ab",
+        "name": "inicializar",
         "rules": [
             {
                 "t": "set",
-                "p": "Control.Controlon_off.habilitado",
+                "p": "controlSRP.Variador.nPolosMotor",
+                "pt": "global",
+                "to": "4",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "controlSRP.Variador.rgb",
+                "pt": "global",
+                "to": "30",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "controlSRP.Variador.Dm",
+                "pt": "global",
+                "to": "2",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "controlSRP.Variador.Dc",
+                "pt": "global",
+                "to": "4",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c9cdf69d7792c813",
+        "type": "ui_text",
+        "z": "97a26d9e76390f7d",
+        "g": "7a43ddafe014d4ab",
+        "group": "b33c308eb96337b7",
+        "order": 20,
+        "width": 4,
+        "height": 2,
+        "name": "",
+        "label": "Frecuencia (Hz)",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1240,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "dc52a865f16adaf2",
+        "type": "function",
+        "z": "97a26d9e76390f7d",
+        "name": "Set Parametros de Tiempo",
+        "func": "var ton = global.get(\"Control.Controlon_off.ton\") || 0;\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;\nvar Frecuencia = global.get(\"controlSRP.Variador.Frecuencia\")||0;\nvar Dc = global.get(\"controlSRP.Variador.Dc\") || 0;\nvar nPolosMotor = global.get(\"controlSRP.Variador.nPolosMotor\") || 0;\nvar Dm = global.get(\"controlSRP.Variador.Dm\") || 0;\nvar rgb = global.get(\"controlSRP.Variador.rgb\") || 0;\nif(msg.payload == true){\n    //conversión ton\n    var InputSeconds = ton;\n    var Days = parseInt(InputSeconds / 86400);\n    var Hours = parseInt((InputSeconds - (Days) * 86400) / 3600);\n    var SegRest = parseInt(InputSeconds - (Hours * 3600) - (Days * 86400));\n    var min = parseInt(SegRest / 60);\n    var seconds = parseInt(SegRest - (min * 60));\n    context.set(\"Days\", (Days));\n    context.set(\"InputSeconds\", InputSeconds);\n    context.set(\"Hours\", Hours);\n    context.set(\"SegRest\", SegRest);\n    context.set(\"min\", min);\n    context.set(\"seconds\", seconds);\n    Days = { payload: Days };\n    Hours = { payload: Hours };\n    min = { payload: min };\n    seconds = { payload: seconds };\n    //Conversión toff\n    var InputSeconds2 = toff;\n    var Days2 = parseInt(InputSeconds2 / 86400);\n    var Hours2 = parseInt((InputSeconds2 - (Days2) * 86400) / 3600);\n    var SegRest2 = parseInt(InputSeconds2 - (Hours2 * 3600) - (Days2 * 86400));\n    var min2 = parseInt(SegRest2 / 60);\n    var seconds2 = parseInt(SegRest2 - (min2 * 60));\n    context.set(\"Days2\", (Days2));\n    context.set(\"InputSeconds2\", InputSeconds2);\n    context.set(\"Hours2\", Hours2);\n    context.set(\"SegRest2\", SegRest2);\n    context.set(\"min2\", min2);\n    context.set(\"seconds2\", seconds2);\n    //conversión Hz a SPM\n    var spm = (Frecuencia * 60 * Dm) / (rgb * nPolosMotor * Dc);\n    context.set(\"Dc\", Dc, \"memoryOnly\")\n    context.set(\"nPolosMotor\", nPolosMotor, \"memoryOnly\")\n    context.set(\"Dm\", Dm, \"memoryOnly\")\n    context.set(\"spm\", spm, \"memoryOnly\")\n// Declaración de parametros en msg.\n    Days2 = { payload: Days2 };\n    Hours2 = { payload: Hours2 };\n    min2 = { payload: min2 };\n    seconds2 = { payload: seconds2 };\n    spm = {payload:spm};\n    return [Hours, min, seconds,Hours2, min2, seconds2,spm];\n}\n",
+        "outputs": 7,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 480,
+        "wires": [
+            [
+                "fbbad81c51b7c9d2"
+            ],
+            [
+                "14fb6705bc502211"
+            ],
+            [
+                "167835101b38128a"
+            ],
+            [
+                "2f612e1ebb27e1f0"
+            ],
+            [
+                "88a857e06437d475"
+            ],
+            [
+                "e8e036dd9c3ab8cc"
+            ],
+            [
+                "025b1dc9349bcd2e",
+                "e9ef12b8934b70c8"
+            ]
+        ]
+    },
+    {
+        "id": "667d890688ef13ec",
+        "type": "ui_date_picker",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
+        "name": "",
+        "label": "Fecha:",
+        "group": "b33c308eb96337b7",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 510,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a0c246b178415ae",
+        "type": "ui_button",
+        "z": "97a26d9e76390f7d",
+        "name": "",
+        "group": "b33c308eb96337b7",
+        "order": 31,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Predeterminado",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 480,
+        "wires": [
+            [
+                "dc52a865f16adaf2"
+            ]
+        ]
+    },
+    {
+        "id": "db4256d9d91906e7",
+        "type": "function",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "confirmar arranque",
+        "func": "var Arrancar_Control = global.get(\"Arrancar_Control\")||0;\nif (msg.payload == true && Arrancar_Control == 1){\n    msg.payload = \"¿Desea Arrancar Control ON/OFF?\";\n    msg.topic = \"Arrancar Control On/Off\";\n    msg.estado = true;\n        \n    }\nif (msg.payload == false && Arrancar_Control == 1) {\n        msg.payload = \"¿Desea Detener Control ON/OFF?\";\n        msg.topic = \"Detener Control On/Off\";\n        msg.estado = false;\n    }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 820,
+        "wires": [
+            [
+                "c51151e6106ab441"
+            ]
+        ]
+    },
+    {
+        "id": "a62be44d478fd497",
+        "type": "ui_toast",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Aceptar",
+        "cancel": "Cancelar",
+        "raw": false,
+        "topic": "",
+        "name": "confirm",
+        "x": 1080,
+        "y": 800,
+        "wires": [
+            [
+                "28a1b81a153ece02"
+            ]
+        ]
+    },
+    {
+        "id": "28a1b81a153ece02",
+        "type": "switch",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "if",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Aceptar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cancelar",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1210,
+        "y": 800,
+        "wires": [
+            [
+                "90c2a4fe8d950dec"
+            ],
+            [
+                "6558ca974868c796"
+            ]
+        ]
+    },
+    {
+        "id": "c51151e6106ab441",
+        "type": "switch",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "estado",
+        "property": "estado",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 950,
+        "y": 820,
+        "wires": [
+            [
+                "a62be44d478fd497"
+            ],
+            [
+                "700b07323e59394d"
+            ]
+        ]
+    },
+    {
+        "id": "700b07323e59394d",
+        "type": "ui_toast",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Aceptar",
+        "cancel": "Cancelar",
+        "raw": false,
+        "topic": "",
+        "name": "confirm",
+        "x": 1080,
+        "y": 840,
+        "wires": [
+            [
+                "4ddb7c483b76e187"
+            ]
+        ]
+    },
+    {
+        "id": "4ddb7c483b76e187",
+        "type": "switch",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "if",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Aceptar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cancelar",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1210,
+        "y": 840,
+        "wires": [
+            [
+                "856b8deec1318ea5"
+            ],
+            [
+                "747ddcf3a79b54d8"
+            ]
+        ]
+    },
+    {
+        "id": "856b8deec1318ea5",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "falseAceptado",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Control.Controlon_off.aceptado",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1400,
+        "y": 820,
+        "wires": [
+            [
+                "a32e93d6c1299c3f"
+            ]
+        ]
+    },
+    {
+        "id": "ebf9f97b644ccd1b",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "g": "7a43ddafe014d4ab",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "controlSRP.Variador.Frecuencia",
                 "pt": "global",
                 "to": "payload",
                 "tot": "msg"
@@ -2258,16 +2653,551 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 290,
-        "y": 700,
+        "x": 1320,
+        "y": 620,
         "wires": [
             []
         ]
     },
     {
-        "id": "4ef8f1f8e10b582a",
+        "id": "5464cbc6e13e1e7f",
+        "type": "ui_toast",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "position": "top left",
+        "displayTime": "3",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "Aceptar",
+        "cancel": "Cancelar",
+        "raw": false,
+        "topic": "",
+        "name": "SPM",
+        "x": 990,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "2e284f8dad321902",
+        "type": "function",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "Popup  de SPM",
+        "func": "var Frecuencia = global.get(\"controlSRP.Variador.Frecuencia\")||0;\nif(msg.payload == true){\n    if (Frecuencia == 0) {\n        msg.payload = \"SPM Invalido\";\n    }\n    else{\n        msg.payload = \"SPM Validos\";\n    }\n\n}\nelse{\n    msg.payload = \"Control ON/OFF Inactivo\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 740,
+        "wires": [
+            [
+                "4a073f2b7cbd9967"
+            ]
+        ]
+    },
+    {
+        "id": "f7fbd465f57d789e",
+        "type": "ui_toast",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "position": "top left",
+        "displayTime": "3",
+        "highlight": "green",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "Aceptar",
+        "cancel": "Cancelar",
+        "raw": false,
+        "topic": "",
+        "name": "SPM",
+        "x": 990,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "4a073f2b7cbd9967",
+        "type": "switch",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "if",
+        "property": "controlSRP.Variador.Frecuencia",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 850,
+        "y": 740,
+        "wires": [
+            [
+                "5464cbc6e13e1e7f"
+            ],
+            [
+                "f7fbd465f57d789e"
+            ]
+        ]
+    },
+    {
+        "id": "e9ef12b8934b70c8",
+        "type": "debug",
+        "z": "97a26d9e76390f7d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "1e14c7a3b1944014",
+        "type": "function",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
+        "name": "Confirmar Actualización",
+        "func": "if(msg.payload == true){\n    msg.payload = \"¿Desea Actualizar Datos Control ON/OFF?\";\n    msg.topic = \"Actualización Confirmada Control On/Off\";\n    msg.actualizar = true;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 120,
+        "wires": [
+            [
+                "5e74ed0d74c32c1a"
+            ]
+        ]
+    },
+    {
+        "id": "5e74ed0d74c32c1a",
+        "type": "ui_toast",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Aceptar",
+        "cancel": "Cancelar",
+        "raw": false,
+        "topic": "",
+        "name": "SPM",
+        "x": 1430,
+        "y": 80,
+        "wires": [
+            [
+                "dcc2e38d1a69f3e4"
+            ]
+        ]
+    },
+    {
+        "id": "dcc2e38d1a69f3e4",
+        "type": "switch",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
+        "name": "if",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Aceptar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cancelar",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1570,
+        "y": 80,
+        "wires": [
+            [
+                "e9acb49079908ed9",
+                "4f1b315f5d9b3851"
+            ],
+            [
+                "ba6328cf9c55541d"
+            ]
+        ]
+    },
+    {
+        "id": "4f1b315f5d9b3851",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1730,
+        "y": 140,
+        "wires": [
+            [
+                "9b8f3a9cc10dddf9"
+            ]
+        ]
+    },
+    {
+        "id": "ba6328cf9c55541d",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "g": "623ed09f1a445c2b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1540,
+        "y": 160,
+        "wires": [
+            [
+                "dc52a865f16adaf2"
+            ]
+        ]
+    },
+    {
+        "id": "d82c1b712d554325",
+        "type": "ui_button",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "Arrancar Control ON/OFF",
+        "group": "b33c308eb96337b7",
+        "order": 33,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Arrancar Control ON/OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 470,
+        "y": 720,
+        "wires": [
+            [
+                "2e284f8dad321902",
+                "db4256d9d91906e7"
+            ]
+        ]
+    },
+    {
+        "id": "747ddcf3a79b54d8",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "falseAceptado",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6558ca974868c796",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "falseAceptado",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a32e93d6c1299c3f",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "name": "falseAceptado",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Control.Controlon_off.aceptado",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0fa8d9f1acb3ca5",
+        "type": "ui_button",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "Detener Control ON/OFF",
+        "group": "b33c308eb96337b7",
+        "order": 38,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Detener Control ON/OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 570,
+        "y": 900,
+        "wires": [
+            [
+                "db4256d9d91906e7"
+            ]
+        ]
+    },
+    {
+        "id": "5786f66db80d6e72",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Arrancar_Control",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "256e0cd30519e411",
+        "type": "ui_toast",
+        "z": "97a26d9e76390f7d",
+        "position": "top left",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "Aceptar",
+        "cancel": "Cancelar",
+        "raw": false,
+        "topic": "",
+        "name": "ON/OFF",
+        "x": 460,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "6be8d24e43675b53",
+        "type": "function",
+        "z": "97a26d9e76390f7d",
+        "name": "Control ON/OFF Mensaje",
+        "func": "if(msg.payload == \"1\"){\n    msg.payload = \"Control ON/OFF Activo\";\n}\nelse if (msg.payload == \"0\"){\n    msg.payload = \"Control ON/OFF Inactivo\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 920,
+        "wires": [
+            [
+                "256e0cd30519e411"
+            ]
+        ]
+    },
+    {
+        "id": "649ab25d25f0fac6",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
+        "name": "conf",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Start",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Basic",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bf5de5ea2d599498",
+        "type": "switch",
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1150,
+        "y": 1020,
+        "wires": [
+            [
+                "649ab25d25f0fac6"
+            ],
+            [
+                "abad8208a8a02cb2"
+            ]
+        ]
+    },
+    {
+        "id": "abad8208a8a02cb2",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "g": "28c8f5c5afe69e5a",
+        "name": "conf",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Stop",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Basic",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e4d801d44e59e91",
         "type": "inject",
-        "z": "fcff4cdb44fda5ca",
+        "z": "97a26d9e76390f7d",
         "name": "",
         "props": [
             {
@@ -2278,111 +3208,30 @@
                 "vt": "str"
             }
         ],
-        "repeat": "1",
+        "repeat": "",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 840,
+        "payload": "10",
+        "payloadType": "num",
+        "x": 560,
+        "y": 1320,
         "wires": [
             [
-                "e94977cf7a267980"
+                "b9f1866dfdfee4d5"
             ]
         ]
     },
     {
-        "id": "e94977cf7a267980",
-        "type": "function",
-        "z": "fcff4cdb44fda5ca",
-        "name": "LogicaControlOnOff",
-        "func": "var habilitado = global.get(\"Control.Controlon_off.habilitado\");\nvar ton = global.get(\"Control.Controlon_off.ton\") || 0;//tiempo de alta\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;//tiempo de baja\nvar estado = global.get(\"Control.Controlon_off.estado\") || false;//estado del equipo\nvar ctr = context.get(\"ctr\",ctr)||0;\nvar time = 0;\n\nif(habilitado == true){\n    //visualizar estado del habilitado\n    node.status({ fill: \"green\", shape: \"dot\", text: \"habilitado\" });\n    if (toff != 0 && ton != 0) {\n        // logica para cambiar entre estados\n        if(estado == true){\n            node.status({ fill: \"green\", shape: \"dot\", text: estado });\n            ctr = ctr + 1;\n            context.set(\"ctr\",ctr)//guardar contador\n            time = ton-ctr;\n            if(ton == ctr){\n                global.set(\"Control.Controlon_off.estado\",false);\n                context.set(\"ctr\",0)//setear el contador\n            }else if (ctr > ton){\n                //caso en el cual se cambia el tiempo del contador pot pantalla\n                context.set(\"ctr\",0)//setear el contador\n            }\n        }else{\n            node.status({ fill: \"red\", shape: \"dot\", text: estado });\n            ctr = ctr + 1;\n            context.set(\"ctr\",ctr)//guardar contador\n            time = toff-ctr;\n            if(toff == ctr){\n                global.set(\"Control.Controlon_off.estado\",true);\n                context.set(\"ctr\",0)//setear el contador\n            } else if (ctr > toff) {\n                //caso en el cual se cambia el tiempo del contador pot pantalla\n                context.set(\"ctr\", 0)//setear el contador\n            }\n        }\n        time = { payload: time};\n        estado = { payload: estado};\n        return [estado,time];\n    }else{\n        node.status({ fill: \"red\", shape: \"dot\", text: \"tiemposNoConfigurados\" });\n    }\n}else{\n    node.status({ fill: \"red\", shape: \"dot\", text: \"Deshabilitado\" });\n} \ncontext.set(\"habilitado\",habilitado,\"memoryOnly\");\ncontext.set(\"estado\",estado,\"memoryOnly\");\ncontext.set(\"toff\",toff,\"memoryOnly\");\ncontext.set(\"ton\",ton,\"memoryOnly\");\ncontext.set(\"time\",time,\"memoryOnly\");",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 450,
-        "y": 840,
+        "id": "b9f1866dfdfee4d5",
+        "type": "subflow:1fbf295f73cccb97",
+        "z": "97a26d9e76390f7d",
+        "name": "",
+        "x": 810,
+        "y": 1320,
         "wires": [
-            [
-                "6a685075c17a5205"
-            ],
-            [
-                "3070092c0802a8b9",
-                "d460c37f16adef13"
-            ]
+            []
         ]
-    },
-    {
-        "id": "6a685075c17a5205",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "estado",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 650,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "3070092c0802a8b9",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "tiempo",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 650,
-        "y": 880,
-        "wires": []
-    },
-    {
-        "id": "d460c37f16adef13",
-        "type": "function",
-        "z": "fcff4cdb44fda5ca",
-        "name": "conversionDia",
-        "func": "var InputSeconds = msg.payload;\nif(InputSeconds >= 0){\n    // si no genera numeros negativos\n    var Days = parseInt(InputSeconds / 86400);\n    var Hours = parseInt((InputSeconds - (Days) * 86400) / 3600);\n    var SegRest = parseInt(InputSeconds - (Hours * 3600) - (Days * 86400));\n    var Min = parseInt(SegRest / 60);\n    var seconds = parseInt(SegRest - (Min * 60));\n    \n    // conversion a string\n    Days = Days.toString()\n    Hours = Hours.toString()\n    Min = Min.toString()\n    seconds = seconds.toString()\n    //concatenacion\n    var date = Days; date += \":\"; date += Hours; date += \":\"; date += Min; date += \":\";date += seconds;\n    // retornar el mensaje\n    msg.payload = date;\n    // guardar las variables\n    context.set(\"Days\", (Days),\"memoryOnly\");\n    context.set(\"InputSeconds\", InputSeconds, \"memoryOnly\");\n    context.set(\"Hours\", Hours, \"memoryOnly\");\n    context.set(\"SegRest\", SegRest, \"memoryOnly\");\n    context.set(\"Min\", Min, \"memoryOnly\");\n    context.set(\"seconds\", seconds, \"memoryOnly\");\n    context.set(\"date\", date, \"memoryOnly\");\n    return msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 680,
-        "y": 940,
-        "wires": [
-            [
-                "655a20b83e6bb351"
-            ]
-        ]
-    },
-    {
-        "id": "655a20b83e6bb351",
-        "type": "debug",
-        "z": "fcff4cdb44fda5ca",
-        "name": "diaHora",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 660,
-        "y": 980,
-        "wires": []
     }
 ]
