@@ -159,14 +159,13 @@
             "f7fbd465f57d789e",
             "5464cbc6e13e1e7f",
             "d82c1b712d554325",
-            "747ddcf3a79b54d8",
-            "6558ca974868c796",
-            "a0fa8d9f1acb3ca5"
+            "a0fa8d9f1acb3ca5",
+            "b3f32032e938eacc"
         ],
-        "x": 154,
-        "y": 679,
+        "x": 114,
+        "y": 639,
         "w": 1352,
-        "h": 262
+        "h": 282
     },
     {
         "id": "28c8f5c5afe69e5a",
@@ -189,14 +188,13 @@
             "ab9f3c56846f6405",
             "ece217650efbf988",
             "1a5c6702e1d15a8f",
-            "f74acd4a67a48990",
             "649ab25d25f0fac6",
             "bf5de5ea2d599498",
             "abad8208a8a02cb2"
         ],
         "x": 634,
         "y": 959,
-        "w": 892,
+        "w": 852,
         "h": 282
     },
     {
@@ -1600,8 +1598,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1390,
-        "y": 780,
+        "x": 1350,
+        "y": 760,
         "wires": [
             []
         ]
@@ -1632,12 +1630,13 @@
         "officon": "",
         "offcolor": "",
         "animate": false,
-        "x": 250,
-        "y": 820,
+        "x": 210,
+        "y": 800,
         "wires": [
             [
                 "5786f66db80d6e72",
-                "6be8d24e43675b53"
+                "6be8d24e43675b53",
+                "856b8deec1318ea5"
             ]
         ]
     },
@@ -2141,7 +2140,7 @@
         "z": "97a26d9e76390f7d",
         "g": "28c8f5c5afe69e5a",
         "name": "LogicaControlOnOff",
-        "func": "var habilitado = global.get(\"Control.Controlon_off.aceptado\");\nvar ton = global.get(\"Control.Controlon_off.ton\") || 0;//tiempo de alta\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;//tiempo de baja\nvar estado = global.get(\"Control.Controlon_off.estado\") || false;//estado del equipo\nvar Frecuencia = global.get(\"controlSRP.Variador.Frecuencia\") || 0;\nvar ctr = context.get(\"ctr\",ctr)||0;\nvar time = 0;\nif(Frecuencia > 0){\n    if (habilitado == true) {\n        //visualizar estado del habilitado\n        node.status({ fill: \"green\", shape: \"dot\", text: \"habilitado\" });\n        if (toff != 0 && ton != 0) {\n            // logica para cambiar entre estados\n            if (estado == true) {\n                node.status({ fill: \"green\", shape: \"dot\", text: estado });\n                ctr = ctr + 1;\n                context.set(\"ctr\", ctr)//guardar contador\n                time = ton - ctr;\n                if (ton == ctr) {\n                    global.set(\"Control.Controlon_off.estado\", false);\n                    context.set(\"ctr\", 0)//setear el contador\n                } else if (ctr > ton) {\n                    //caso en el cual se cambia el tiempo del contador pot pantalla\n                    context.set(\"ctr\", 0)//setear el contador\n                }\n            } else {\n                node.status({ fill: \"red\", shape: \"dot\", text: estado });\n                ctr = ctr + 1;\n                context.set(\"ctr\", ctr)//guardar contador\n                time = toff - ctr;\n                if (toff == ctr) {\n                    global.set(\"Control.Controlon_off.estado\", true);\n                    context.set(\"ctr\", 0)//setear el contador\n                } else if (ctr > toff) {\n                    //caso en el cual se cambia el tiempo del contador pot pantalla\n                    context.set(\"ctr\", 0)//setear el contador\n                }\n            }\n            time = { payload: time };\n            estado = { payload: estado };\n            return [estado, time];\n        } else {\n            node.status({ fill: \"red\", shape: \"dot\", text: \"tiemposNoConfigurados\" });\n        }\n    } else if (habilitado == false) {\n        node.status({ fill: \"red\", shape: \"dot\", text: \"Deshabilitado\" });\n        global.set(\"Control.Controlon_off.estado\", true);\n        context.set(\"ctr\", 0)//setear el contador\n        time = { payload: time };\n        estado = { payload: \"Deshabilitado\" };\n        return [estado, time];\n    }\n\n}\ncontext.set(\"habilitado\",habilitado,\"memoryOnly\");\ncontext.set(\"estado\",estado,\"memoryOnly\");\ncontext.set(\"toff\",toff,\"memoryOnly\");\ncontext.set(\"ton\",ton,\"memoryOnly\");\ncontext.set(\"time\",time,\"memoryOnly\");\n",
+        "func": "var habilitado = global.get(\"Control.Controlon_off.aceptado\");\nvar ton = global.get(\"Control.Controlon_off.ton\") || 0;//tiempo de alta\nvar toff = global.get(\"Control.Controlon_off.toff\") || 0;//tiempo de baja\nvar estado = global.get(\"Control.Controlon_off.estado\") || false;//estado del equipo\nvar Frecuencia = global.get(\"controlSRP.Variador.Frecuencia\") || 0;\nvar activar_control = global.get(\"Arrancar_Control\")||false;\nvar ctr = context.get(\"ctr\",ctr)||0;\nvar time = 0;\nif (activar_control == true){\n    if (Frecuencia > 0) {\n        if (habilitado == true) {\n            //visualizar estado del habilitado\n            node.status({ fill: \"green\", shape: \"dot\", text: \"habilitado\" });\n            if (toff != 0 && ton != 0) {\n                // logica para cambiar entre estados\n                if (estado == true && activar_control == true) {\n                    node.status({ fill: \"green\", shape: \"dot\", text: estado });\n                    ctr = ctr + 1;\n                    context.set(\"ctr\", ctr)//guardar contador\n                    time = ton - ctr;\n                    if (ton == ctr) {\n                        global.set(\"Control.Controlon_off.estado\", false);\n                        context.set(\"ctr\", 0)//setear el contador\n                    } else if (ctr > ton) {\n                        //caso en el cual se cambia el tiempo del contador pot pantalla\n                        context.set(\"ctr\", 0)//setear el contador\n                    }\n                } else if(estado == false && activar_control == true){\n                    node.status({ fill: \"red\", shape: \"dot\", text: estado });\n                    ctr = ctr + 1;\n                    context.set(\"ctr\", ctr)//guardar contador\n                    time = toff - ctr;\n                    if (toff == ctr) {\n                        global.set(\"Control.Controlon_off.estado\", true);\n                        context.set(\"ctr\", 0)//setear el contador\n                    } else if (ctr > toff) {\n                        //caso en el cual se cambia el tiempo del contador pot pantalla\n                        context.set(\"ctr\", 0)//setear el contador\n                    }\n                }\n                time = { payload: time };\n                estado = { payload: estado };\n                return [estado, time];\n            } else {\n                node.status({ fill: \"red\", shape: \"dot\", text: \"tiemposNoConfigurados\" });\n            }\n        } else if (habilitado == false) {\n            node.status({ fill: \"red\", shape: \"dot\", text: \"Deshabilitado\" });\n            global.set(\"Control.Controlon_off.estado\", true);\n            context.set(\"ctr\", 0)//setear el contador\n            time = { payload: time };\n            estado = { payload: false };\n            return [estado, time];\n        }\n\n    }\n\n}else if (activar_control == false){\n    node.status({ fill: \"red\", shape: \"dot\", text: \"Deshabilitado\" });\n    global.set(\"Control.Controlon_off.estado\", 0);\n    activar_control = global.set(\"Arrancar_Control\") || false;\n    context.set(\"ctr\", 0)//setear el contador\n    time = { payload: time};\n    estado = { payload: \"desabilitado\" };\n    return [estado, time];\n\n}\n\n\ncontext.set(\"habilitado\",habilitado,\"memoryOnly\");\ncontext.set(\"estado\",estado,\"memoryOnly\");\ncontext.set(\"toff\",toff,\"memoryOnly\");\ncontext.set(\"ton\",ton,\"memoryOnly\");\ncontext.set(\"time\",time,\"memoryOnly\");\ncontext.set(\"activar_control\", activar_control, \"memoryOnly\");\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2453,8 +2452,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 750,
-        "y": 820,
+        "x": 710,
+        "y": 800,
         "wires": [
             [
                 "c51151e6106ab441"
@@ -2476,8 +2475,8 @@
         "raw": false,
         "topic": "",
         "name": "confirm",
-        "x": 1080,
-        "y": 800,
+        "x": 1040,
+        "y": 780,
         "wires": [
             [
                 "28a1b81a153ece02"
@@ -2507,15 +2506,13 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1210,
-        "y": 800,
+        "x": 1170,
+        "y": 780,
         "wires": [
             [
                 "90c2a4fe8d950dec"
             ],
-            [
-                "6558ca974868c796"
-            ]
+            []
         ]
     },
     {
@@ -2537,8 +2534,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 950,
-        "y": 820,
+        "x": 910,
+        "y": 800,
         "wires": [
             [
                 "a62be44d478fd497"
@@ -2563,8 +2560,8 @@
         "raw": false,
         "topic": "",
         "name": "confirm",
-        "x": 1080,
-        "y": 840,
+        "x": 1040,
+        "y": 820,
         "wires": [
             [
                 "4ddb7c483b76e187"
@@ -2594,15 +2591,13 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1210,
-        "y": 840,
+        "x": 1170,
+        "y": 820,
         "wires": [
             [
                 "856b8deec1318ea5"
             ],
-            [
-                "747ddcf3a79b54d8"
-            ]
+            []
         ]
     },
     {
@@ -2625,8 +2620,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1400,
-        "y": 820,
+        "x": 1360,
+        "y": 800,
         "wires": [
             [
                 "a32e93d6c1299c3f"
@@ -2674,8 +2669,8 @@
         "raw": false,
         "topic": "",
         "name": "SPM",
-        "x": 990,
-        "y": 720,
+        "x": 950,
+        "y": 700,
         "wires": []
     },
     {
@@ -2690,8 +2685,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 700,
-        "y": 740,
+        "x": 660,
+        "y": 720,
         "wires": [
             [
                 "4a073f2b7cbd9967"
@@ -2713,8 +2708,8 @@
         "raw": false,
         "topic": "",
         "name": "SPM",
-        "x": 990,
-        "y": 760,
+        "x": 950,
+        "y": 740,
         "wires": []
     },
     {
@@ -2740,8 +2735,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 850,
-        "y": 740,
+        "x": 810,
+        "y": 720,
         "wires": [
             [
                 "5464cbc6e13e1e7f"
@@ -2922,65 +2917,14 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 470,
-        "y": 720,
+        "x": 430,
+        "y": 700,
         "wires": [
             [
                 "2e284f8dad321902",
-                "db4256d9d91906e7"
+                "db4256d9d91906e7",
+                "b3f32032e938eacc"
             ]
-        ]
-    },
-    {
-        "id": "747ddcf3a79b54d8",
-        "type": "change",
-        "z": "97a26d9e76390f7d",
-        "g": "2a06f1ebdf6594bd",
-        "name": "falseAceptado",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1120,
-        "y": 880,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6558ca974868c796",
-        "type": "change",
-        "z": "97a26d9e76390f7d",
-        "g": "2a06f1ebdf6594bd",
-        "name": "falseAceptado",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1180,
-        "y": 740,
-        "wires": [
-            []
         ]
     },
     {
@@ -3028,8 +2972,8 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 570,
-        "y": 900,
+        "x": 530,
+        "y": 880,
         "wires": [
             [
                 "db4256d9d91906e7"
@@ -3230,6 +3174,32 @@
         "name": "",
         "x": 810,
         "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3f32032e938eacc",
+        "type": "change",
+        "z": "97a26d9e76390f7d",
+        "g": "2a06f1ebdf6594bd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Arrancar_Control.true",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 680,
         "wires": [
             []
         ]
